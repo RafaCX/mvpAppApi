@@ -12,7 +12,7 @@ app = OpenAPI(__name__, info=info)
 CORS(app)
 
 # Configurar caminho do frontend
-FRONTEND_PATH = "../mvp_app_front/static"
+FRONTEND_PATH = "../mvpAppFront/static"
 
 # Rota para servir o frontend
 @app.route('/')
